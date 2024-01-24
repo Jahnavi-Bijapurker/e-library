@@ -1,0 +1,1282 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Site</title>
+    <!-- Include Bootstrap CSS and JavaScript from a CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+   
+
+
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="#">
+          <img
+            src="./images/book.png"
+            width="40"
+            height="28"
+            class="d-inline-block align-text-top"
+          />
+          MyWorld
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+            <li class="nav-item mx-3">
+              <a class="nav-link active text-light" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link active text-light" href="#">My Books</a>
+            </li>
+            <li class="nav-item dropdown mx-3">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Browse
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-dark bg-dark"
+                aria-labelledby="navbarDropdown"
+              >
+                <li><a class="dropdown-item text-light" href="#">Action</a></li>
+                <li><a class="dropdown-item text-light" href="#">Comedy</a></li>
+                <li>
+                  <a class="dropdown-item text-light" href="#">Sci-fic</a>
+                </li>
+                <li><a class="dropdown-item text-light" href="#">Horror</a></li>
+                <li>
+                  <a class="dropdown-item text-light" href="#">Thriller</a>
+                </li>
+              </ul>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link active text-light" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li> -->
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light rounded-3 mx-2" type="submit">
+              Search
+            </button>
+            <button class="btn btn-outline-light rounded-3 mx-2" type="submit">
+              Login
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- subscription section -->
+
+    <div class="container mt-4 gap-1">
+      <div class="row py-5 d-flex justify-content-center align-items-center">
+        <div class="col-md-4">
+          <img src="./images/image1.jpg" class="img-fluid" alt="Image" />
+        </div>
+        <div
+          class="col-md-8 d-flex justify-content-center align-items-center gap-5 py-5"
+        >
+          <div
+            class="para d-flex justify-content-center align-items-center flex-column text-center"
+          >
+            <h1>MyWorld</h1>
+            <h2>A home for your books</h2>
+
+            <h5>MyWorld is a free, library quality catalog to track</h5>
+            <h5>reading progress or your whole library.</h5>
+          </div>
+          <div
+            class="col-md-8 d-flex justify-content-center align-items-center gap-5 py-5"
+          >
+            <button class="btn btn-dark text-light">Join Us</button>
+            <button class="btn btn-dark text-light">Login</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- card section -->
+
+    <section
+      class="container d-md-flex my-md-5 align-items-md-center justify-content-md-center"
+    >
+      <div class="row text-center mx-auto mx-md-auto my-5">
+        <!-- card 1 -->
+        <div class="col-md-4 d-md-flex">
+          <div class="card" style="width: 20rem">
+            <img
+              src="./images/book1.jpg"
+              class="card-img-fluid"
+              height="350px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">THE BOY IN THE STRIPED PYJAMAS</h5>
+              <p class="card-text">
+                The Boy in the Striped Pyjamas is a Holocaust novel by John
+                Boyne.The plot concerns a German boy named Bruno whose father is
+                the commandant of Auschwitz and Bruno's friendship with a Jewish
+                detainee named Shmuel. What is the story of Bruno?
+              </p>
+              <a href="#" class="btn btn-primary">READ</a>
+            </div>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="col-md-4 d-md-flex">
+          <div class="card" style="width: 20rem">
+            <img
+              src="./images/book2.jpg"
+              class="card-img-fluid"
+              height="350px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">NARUTO SHIPPUDEN</h5>
+              <p class="card-text">
+                Naruto is a Japanese manga series by Masashi Kishimoto. The
+                story follows Naruto Uzumaki, a young ninja who seeks
+                recognition from his peers and dreams of becoming the Hokage,
+                the village. The manga has two parts: the first series is Naruto
+                and second is Shippuden.
+              </p>
+              <a href="#" class="btn btn-primary">READ</a>
+            </div>
+          </div>
+        </div>
+        <!-- card 3 -->
+        <div class="col-md-4 d-md-flex">
+          <div class="card" style="width: 20rem">
+            <img
+              src="./images/book3.jpg"
+              class="card-img-fluid"
+              height="350px"
+            />
+            <div class="card-body">
+              <h5 class="card-title">BLACK FOREST</h5>
+              <p class="card-text">
+                A fantasy horror novel. Something - a creature? a plague? a
+                curse? - is killing townsfolk one by one. Monty is a young man
+                who is just trying to keep up his family's farm after the death
+                of his father. He's never cared for farm life, but his mother
+                and sister have to eat.What will Monty do?
+              </p>
+              <a href="#" class="btn btn-primary">READ</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- hero section -->
+    <div class="my-md-5 py-md-5">
+      <section
+        class="container-fluid d-md-flex bg-secondary align-items-md-center justify-content-md-center flex-column py-5 gap-2 w-100"
+        style="margin: 100px 0"
+      >
+        <h5>THE ONLY THING THAT</h5>
+        <h2>YOU ABSOLUTELY</h2>
+        <h1>HAVE</h1>
+        <h2>TO KNOW</h2>
+        <h2>IS THE LOCATION</h2>
+        <h3>OF THE LIBRARY</h3>
+      </section>
+    </div>
+
+    <!-- About -->
+
+    <div class="container">
+      <h1 class="text-center mt-4">Welcome To MyWorld</h1>
+
+      <!-- Carousel Container -->
+      <div
+        id="multiCardCarousel"
+        class="carousel slide py-5"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img
+                    src="./images/ss1.png"
+                    class="card-img-top"
+                    alt="Image 1"
+                  />
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img
+                    src="./images/ss2.png"
+                    class="card-img-top"
+                    alt="Image 2"
+                  />
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img
+                    src="./images/ss3.png"
+                    class="card-img-top"
+                    alt="Image 3"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide two -->
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                  <img
+                    src="./images/ss4.png"
+                    class="card-img-top"
+                    alt="Image 1"
+                  />
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img
+                    src="./images/ss5.png"
+                    class="card-img-top"
+                    alt="Image 2"
+                  />
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <img
+                    src="./images/ss6.png"
+                    class="card-img-top"
+                    alt="Image 3"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel Controls -->
+          <a
+            class="carousel-control-prev"
+            href="#multiCardCarousel"
+            role="button"
+            data-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bg-dark rounded-circle"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#multiCardCarousel"
+            role="button"
+            data-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bg-dark rounded-circle"
+              aria-hidden="true"
+            ></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+     
+</div>
+</div>
+
+
+      <!--------------Manga ------------>
+      <div class="container">
+        <h1 class="mt-4">Comics or Manga</h1>
+
+        <div
+          id="multiCardCarousel"
+          class="carousel slide py-5"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="image d-flex justify-content-center align-items-center bg-transparent">
+                    <img
+                      src="./images/manga1.webp"
+                      class="img-fluid"
+                      alt="Image 1"
+                      style="width: 300px;"
+                     
+                    />
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="image d-flex justify-content-center align-items-center bg-transparent">
+                    <img
+                      src="./images/manga2.webp"
+                      class="img-fluid"
+                      alt="Image 2"
+                      style="width: 300px;"
+                    
+                    />
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="image d-flex justify-content-center align-items-center bg-transparent">
+                    <img
+                      src="./images/manga3.jpg"
+                      class="img-fluid"
+                      alt="Image 3"
+                      style="width: 300px;"
+                      
+                     
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide two -->
+
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="image d-flex justify-content-center align-items-center bg-transparent">
+                    <img
+                      src="./images/manga4.webp"
+                      class="card-img-top"
+                      alt="Image 4"
+                      style="width: 300px;"
+                     
+                    />
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="image d-flex justify-content-center align-items-center bg-transparent">
+                    <img
+                      src="./images/manga5.webp"
+                      class="card-img-top"
+                      alt="Image 5"
+                      style="width: 300px;"
+                    
+                    />
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="image d-flex justify-content-center align-items-center bg-transparent">
+                    <img
+                      src="./images/manga6.jpg"
+                      class="card-img-top"
+                      alt="Image 6"
+                      style="width: 300px;"
+                     
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+       
+
+        <!-- Carousel Controls -->
+        <a
+          class="carousel-control-prev"
+          href="#multiCardCarousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon bg-dark rounded-circle"
+            aria-hidden="true"
+          ></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#multiCardCarousel"
+          role="button"
+          data-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon bg-dark rounded-circle"
+            aria-hidden="true"
+          ></span>
+          <span class="sr-only">Next</span>
+        </a>
+     
+    </div>
+  </div>
+
+<!----------------romance---------------->
+
+
+<div class="container">
+  <h1 class="mt-4">Romance</h1>
+
+  <div
+    id="multiCardCarousel"
+    class="carousel slide py-5"
+    data-ride="carousel"
+  >
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/rom1.jpg"
+                class="img-fluid"
+                alt="Image 1"
+                style="width: 300px;"
+               
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/rom2.jpg"
+                class="img-fluid"
+                alt="Image 2"
+                style="width: 300px;"
+              
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/rom3.jpg"
+                class="img-fluid"
+                alt="Image 3"
+                style="width: 300px;"
+                
+               
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide two -->
+
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/rom4.avif"
+                class="card-img-top"
+                alt="Image 4"
+                style="width: 300px;"
+               
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/rom4.jpg"
+                class="card-img-top"
+                alt="Image 5"
+                style="width: 300px;"
+              
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/rom6.webp"
+                class="card-img-top"
+                alt="Image 6"
+                style="width: 300px;"
+               
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+
+  <!-- Carousel Controls -->
+  <a
+    class="carousel-control-prev"
+    href="#multiCardCarousel"
+    role="button"
+    data-slide="prev"
+  >
+    <span
+      class="carousel-control-prev-icon bg-dark rounded-circle"
+      aria-hidden="true"
+    ></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a
+    class="carousel-control-next"
+    href="#multiCardCarousel"
+    role="button"
+    data-slide="next"
+  >
+    <span
+      class="carousel-control-next-icon bg-dark rounded-circle"
+      aria-hidden="true"
+    ></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+</div>
+
+<!-----------------sci-fic------------->
+
+
+
+<div class="container">
+  <h1 class="mt-4">Sci-fic</h1>
+
+  <div
+    id="multiCardCarousel"
+    class="carousel slide py-5"
+    data-ride="carousel"
+  >
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/sci1.jpeg"
+                class="img-fluid"
+                alt="Image 1"
+                style="width: 300px;"
+               
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/sci2.jpeg"
+                class="img-fluid"
+                alt="Image 2"
+                style="width: 300px;"
+              
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/sci3.jpeg"
+                class="img-fluid"
+                alt="Image 3"
+                style="width: 300px;"
+                
+               
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide two -->
+
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/sci4.jpeg"
+                class="card-img-top"
+                alt="Image 4"
+                style="width: 300px;"
+               
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/sci5.jpg"
+                class="card-img-top"
+                alt="Image 5"
+                style="width: 300px;"
+              
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/sci6.jpg"
+                class="card-img-top"
+                alt="Image 6"
+                style="width: 300px;"
+               
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+
+  <!-- Carousel Controls -->
+  <a
+    class="carousel-control-prev"
+    href="#multiCardCarousel"
+    role="button"
+    data-slide="prev"
+  >
+    <span
+      class="carousel-control-prev-icon bg-dark rounded-circle"
+      aria-hidden="true"
+    ></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a
+    class="carousel-control-next"
+    href="#multiCardCarousel"
+    role="button"
+    data-slide="next"
+  >
+    <span
+      class="carousel-control-next-icon bg-dark rounded-circle"
+      aria-hidden="true"
+    ></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+</div>
+
+<!--Hystory-->
+
+<div class="container">
+  <h1 class="mt-4">History</h1>
+
+  <div
+    id="multiCardCarousel"
+    class="carousel slide py-5"
+    data-ride="carousel"
+  >
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/his1.jpg"
+                class="img-fluid"
+                alt="Image 1"
+                style="width: 300px;"
+               
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/his2.jpg"
+                class="img-fluid"
+                alt="Image 2"
+                style="width: 300px;"
+              
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/his3.webp"
+                class="img-fluid"
+                alt="Image 3"
+                style="width: 300px;"
+                
+               
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide two -->
+
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/his4.webp"
+                class="card-img-top"
+                alt="Image 4"
+                style="width: 300px;"
+               
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/his5.webp"
+                class="card-img-top"
+                alt="Image 5"
+                style="width: 300px;"
+              
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/his6.jpg"
+                class="card-img-top"
+                alt="Image 6"
+                style="width: 300px;"
+               
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+
+  <!-- Carousel Controls -->
+  <a
+    class="carousel-control-prev"
+    href="#multiCardCarousel"
+    role="button"
+    data-slide="prev"
+  >
+    <span
+      class="carousel-control-prev-icon bg-dark rounded-circle"
+      aria-hidden="true"
+    ></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a
+    class="carousel-control-next"
+    href="#multiCardCarousel"
+    role="button"
+    data-slide="next"
+  >
+    <span
+      class="carousel-control-next-icon bg-dark rounded-circle"
+      aria-hidden="true"
+    ></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+</div>
+
+<!--Narrative-->
+
+<div class="container">
+  <h1 class="mt-4">Narrative</h1>
+
+  <div
+    id="multiCardCarousel"
+    class="carousel slide py-5"
+    data-ride="carousel"
+  >
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/nar1.webp"
+                class="img-fluid"
+                alt="Image 1"
+                style="width: 300px;"
+               
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/nar2.jpg"
+                class="img-fluid"
+                alt="Image 2"
+                style="width: 300px;"
+              
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/nar3.jpeg"
+                class="img-fluid"
+                alt="Image 3"
+                style="width: 300px;"
+                
+               
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide two -->
+
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/nar4.jpeg"
+                class="card-img-top"
+                alt="Image 4"
+                style="width: 300px;"
+               
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/nar5.jpeg"
+                class="card-img-top"
+                alt="Image 5"
+                style="width: 300px;"
+              
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/nar6.jpeg"
+                class="card-img-top"
+                alt="Image 6"
+                style="width: 300px;"
+               
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+
+  <!-- Carousel Controls -->
+  <a
+    class="carousel-control-prev"
+    href="#multiCardCarousel"
+    role="button"
+    data-slide="prev"
+  >
+    <span
+      class="carousel-control-prev-icon bg-dark rounded-circle"
+      aria-hidden="true"
+    ></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a
+    class="carousel-control-next"
+    href="#multiCardCarousel"
+    role="button"
+    data-slide="next"
+  >
+    <span
+      class="carousel-control-next-icon bg-dark rounded-circle"
+      aria-hidden="true"
+    ></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+</div>
+
+<!--thriller-->
+
+<div class="container">
+  <h1 class="mt-4">Thriller</h1>
+
+  <div
+    id="multiCardCarousel"
+    class="carousel slide py-5"
+    data-ride="carousel"
+  >
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/thr1.jpg"
+                class="img-fluid"
+                alt="Image 1"
+                style="width: 300px;"
+               
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/thr2.webp"
+                class="img-fluid"
+                alt="Image 2"
+                style="width: 300px;"
+              
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/thr3.webp"
+                class="img-fluid"
+                alt="Image 3"
+                style="width: 300px;"
+                
+               
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide two -->
+
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/thr4.jpeg"
+                class="card-img-top"
+                alt="Image 4"
+                style="width: 300px;"
+               
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/thr5.webp"
+                class="card-img-top"
+                alt="Image 5"
+                style="width: 300px;"
+              
+              />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="image d-flex justify-content-center align-items-center bg-transparent">
+              <img
+                src="./images/thr6.jpeg"
+                class="card-img-top"
+                alt="Image 6"
+                style="width: 300px;"
+               
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+
+  <!-- Carousel Controls -->
+  <a
+    class="carousel-control-prev"
+    href="#multiCardCarousel"
+    role="button"
+    data-slide="prev"
+  >
+    <span
+      class="carousel-control-prev-icon bg-dark rounded-circle"
+      aria-hidden="true"
+    ></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a
+    class="carousel-control-next"
+    href="#multiCardCarousel"
+    role="button"
+    data-slide="next"
+  >
+    <span
+      class="carousel-control-next-icon bg-dark rounded-circle"
+      aria-hidden="true"
+    ></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+</div>
+
+
+
+<!-- accordian -->
+
+
+
+<div class="container">
+  <h2>About MyWorld</h2>
+  <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+              </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                 <strong>
+                  "Elibrary" redirects here. For the former online library eLibrary, see HighBeam Research.
+A digital library, also called an online library, an internet library, a digital repository, a library without walls, or a digital collection, is an online database of digital objects that can include text, still images, audio, video, digital documents, or other digital media formats or a library accessible through the internet. Objects can consist of digitized content like print or photographs, as well as originally produced digital content like word processor files or social media posts. In addition to storing content, digital libraries provide means for organizing, searching, and retrieving the content contained in the collection. Digital libraries can vary immensely in size and scope, and can be maintained by individuals or organizations.[1] The digital content may be stored locally, or accessed remotely via computer networks. These information retrieval systems are able to exchange information with each other through interoperability and sustainability.
+                 </strong>
+              </div>
+          </div>
+      </div>
+
+     
+      
+      <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Terems And Condition
+              </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                  <strong>
+                    <p>As a member of the University you have agreed to the following terms and conditions of use for Library e-resources. Please pay particular attention to clauses 2, 3 and 6 in the General terms of use</p>
+
+<p>"I acknowledge and agree that resources and their content (the "Licensed Material") are protected by copyright as stated in the Copyright Acknowledgement and their use is subject to limitations and Agreements which are summarised in the Terms of Use (listed below). Details of Agreements for specific e-resources are available online, and I undertake to read these when I first log in to use each specific e-resource.</p>
+
+<p>I shall regard any passwords provided as personal to me and I undertake not to divulge such to a third party."</p>
+
+<p> i) General terms of use
+Each person must read and abide by Copyright Acknowledgement.
+Use of the Licensed Material is restricted to the following purposes:
+teaching; research; personal educational development; administration and management of the business of the University; and development work associated with any of the aforementioned.
+Use of the Licensed Material is not permitted for consultancy or services leading to commercial exploitation of the Licensed Material nor for work of significant benefit to the employer of students on industrial placement or part-time courses without prior agreement of the Vendor.</p>
+
+
+<p>ii) Copyright acknowledgement
+"I agree that my usage of any Software or Computer readable Datasets, hereafter referred to as the Product, issued or otherwise made available to me by a School or Department of The University of Reading is subject to the following conditions:</p>
+
+<p>I will ensure that all the requirements of the agreements or contracts under which the Product is held by The University will be maintained. (Copies of the relevant agreements or contracts may be seen by application to the School or Department which made the Product available).</p>
+<p>I will not remove or alter the Copyright Statement on any copies of Product used by me.
+I will ensure the Security and Confidentiality of any copy released to me, and will not make any further copies from it or knowingly permit others to do so.</p>
+<p>I will use the Product for the purposes defined in the Agreement, and only on computer systems covered by the Agreement.</p>
+
+
+                  </strong>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- form to contact -->
+<form class="form-check mx-md-5 my-md-5">
+  <h1>Sign In Form</h1>
+<div class="form-group mx-md-5 my-md-5 ">
+  <label for="userEmail">Email address</label>
+  <input type="email" class="form-control w-50" id="userEmail" aria-describedby="emailHelp" placeholder="Enter email">
+  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+ </div>
+ <div class="form-group mx-md-5 my-md-5">
+  <label for="userPassword">Password</label>
+  <input type="password" class="form-control w-50" id="userPassword" placeholder="Password">
+ </div>
+
+ <div class="form-group mx-md-5 my-md-5">
+  <label for="userPassword">Comform Password</label>
+  <input type="password" class="form-control w-50" id="userPassword" placeholder="Password">
+ </div>
+
+
+<h3>Your Intrests</h3>
+ <div class="form-check ">
+  <input class="form-check-input" type="checkbox" name="userType" id="userType2" value="option2">
+  <label class="form-check-label" for="userType2">Manga</label>
+ </div>
+
+ <div class="form-check ">
+  <input class="form-check-input" type="checkbox" name="userType" id="userType2" value="option2">
+  <label class="form-check-label" for="userType2">Thriller</label>
+ </div>
+
+ <div class="form-check ">
+  <input class="form-check-input" type="checkbox" name="userType" id="userType2" value="option2">
+  <label class="form-check-label" for="userType2">Romance</label>
+ </div>
+
+ <div class="form-check ">
+  <input class="form-check-input" type="checkbox" name="userType" id="userType2" value="option2">
+  <label class="form-check-label" for="userType2">Fiction</label>
+ </div>
+
+ <div class="form-check ">
+  <input class="form-check-input" type="checkbox" name="userType" id="userType2" value="option2">
+  <label class="form-check-label" for="userType2">History</label>
+ </div>
+
+ <div class="form-check">
+  <input class="form-check-input" type="checkbox" name="userType" id="userType1" value="option1" checked>
+  <label class="form-check-label" for="userType1">Horror</label>
+ </div>
+
+
+ <div class="form-check mx-md-5 my-md-5">
+  <input type="radio" class="form-check-input" id="exampleCheck1">
+  <label class="form-check-label" for="exampleCheck1">I Accept All Terms And Conditions</label>
+ </div>
+
+
+ 
+ 
+ <button type="submit" class="btn btn-primary">Submit</button>
+<button type="button" class="btn btn-secondary">Clear</button>
+</form>
+
+
+
+<!-- -------footer-------- -->
+
+<footer class="bd-footer py-5 mt-5 bg-light">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-3 mb-3">
+        <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="" aria-label="Bootstrap">
+
+          <span class="fs-5">MyWorld</span>
+        </a>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="">Vision</a></li>
+          <li class="mb-2"><a href="">Volounteer</a></li>
+          <li class="mb-2"><a href="">Career</a></li>
+          <li class="mb-2"><a href="">Blogs</a></li>
+          <li class="mb-2"><a href="">Donate</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 mb-3">
+        <h5>Discover</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="">Home</a></li>
+          <li class="mb-2"><a href="">Books</a></li>
+          <li class="mb-2"><a href="">Authors</a></li>
+          <li class="mb-2"><a href="">About</a></li>
+          <li class="mb-2"><a href="">Geners</a></li>
+          <li class="mb-2"><a href="">Subjects</a></li>
+          <li class="mb-2"><a href="">Collections</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-2 mb-3">
+        <h5>Develope</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="">Developer Center</a></li>
+          <li class="mb-2"><a href="">API Documentation</a></li>
+          <li class="mb-2"><a href="">Bulk Data Dump</a></li>
+          <li class="mb-2"><a href="">Writing Bots</a></li>
+          <li class="mb-2"><a href="">Authorities</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-lg-2 mb-3">
+        <h5>Help</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="">Help Center</a></li>
+          <li class="mb-2"><a href="">Report Problem</a></li>
+          <li class="mb-2"><a href="">FAQ</a></li>
+          <li class="mb-2"><a href="">Add A Book</a></li>
+         
+        </ul>
+      </div>
+
+      <div class="col-6 col-lg-2 mb-3">
+        <h5>Community</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="">Issues</a></li>
+          <li class="mb-2"><a href="">Discussions</a></li>
+          <li class="mb-2"><a href="">Corporate sponsors</a></li>
+          <li class="mb-2"><a href="">Open Collective</a></li>
+          <li class="mb-2"><a href="">Stack Overflow</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html> 
